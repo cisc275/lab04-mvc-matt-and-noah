@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-class Animal {
+class Animal{
 	String name;
 	int numLegs;
 	public int getLegs() {
 		return this.numLegs;
 	}
 }
-class Dog extends Animal{
+class Dog extends Animal implements Comparable<Dog>{
 	
 	Dog(String name, int numLegs){
 		this.name = name;
@@ -18,6 +18,11 @@ class Dog extends Animal{
 	public String toString(){
 		return this.name + ", " + this.numLegs;
 }
+	@Override
+	public int compareTo(Dog d) {
+		//return this.numLegs.compareTo(d.numLegs);
+		return 0;
+	}
 }
 
 public class MyCompare3 {
