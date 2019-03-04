@@ -1,8 +1,8 @@
 
 import java.util.HashMap;
 
-public class EnumWAttributes {
-
+public class EnumWAttributes { 
+//
 	//DON'T USE THIS FILE, this is just some examples of how to use our enumerated type.
 	
 	public static void main(String[] args) {
