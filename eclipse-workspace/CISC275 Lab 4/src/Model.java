@@ -9,6 +9,11 @@
  * provide location
  **/
 
+/**
+ * 
+ * @author Matthew Lyons & Noah Calle
+ *
+ */
 
 public class Model {
 	private int imgWidth;

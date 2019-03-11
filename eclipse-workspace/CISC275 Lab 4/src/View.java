@@ -7,7 +7,7 @@
  * use proper images for direction
  * load images for all direction (an image should only be loaded once!!! why?)
  **/
-//
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -20,9 +20,6 @@ import java.util.*;
 
 public class View extends JPanel{
 	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	final int frameCount = 10;
     int picNum = 0;
@@ -104,7 +101,6 @@ public class View extends JPanel{
     		picsFile.put(key, pics);	
     	}
     	
-    	// TODO: Change this constructor so that at least eight orc animation pngs are loaded
     }  
     
     private HashMap<Direction,BufferedImage> createImage(){
@@ -143,7 +139,6 @@ public class View extends JPanel{
     	
     	return null;
     	
-    	// TODO: Change this method so you can load other orc animation bitmaps
     }
     
     
