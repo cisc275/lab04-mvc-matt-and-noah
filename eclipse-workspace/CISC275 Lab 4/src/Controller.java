@@ -2,13 +2,12 @@
  * Do not modify this file without permission from your TA.
  **/
 public class Controller {
-//
 	private Model model;
 	private View view;
 	
 	public Controller(){
 		view = new View();
-		model = new Model(view.getWidth(), view.getHeight()), view.getImageWidth(), view.getImageHeight());
+		model = new Model(view.getWidth(), view.getHeight(), view.getImageWidth(), view.getImageHeight());
 	}
 	
         //run the simulation
@@ -21,4 +20,5 @@ public class Controller {
 			view.update(model.getX(), model.getY(), model.getDirect());
 		}
 	}
+	
 }
